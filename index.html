@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>Dimensionamento Bombeiro</title>
+</head>
+<body>
+
+    <form method="post" class="formulario">
+        <div>
+            <label for="cnae">CNAE:</label>
+            <input type="text" id="cnae" name="cnae_number" />
+        </div>
+        <div>
+            <label for="altura">Altura:</label>
+            <input type="text" id="altura" name="altura_number" />
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" name="usuario_msg"></textarea>
+        </div>
+        
+        <div class="calcular">
+            <button type="button" onclick="clicar()">Calcular</button>
+        </div>
+    </form>
+
+    <div id = "res">
+        abc
+    </div>
+
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
